@@ -1,0 +1,41 @@
+.best-professions {
+  padding-top: 110px;
+  padding-bottom: 100px;
+  background-image: url("../img/bg.png");
+  background-position: bottom -90px center ;
+  background-repeat: no-repeat;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  &__title {
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+}
+
+.item {
+  max-width: 300px;
+  &__title {
+    margin-bottom: 11px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2F281E;
+  }
+
+  &__image {
+    margin-bottom: 14px;
+  }
+
+  &__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+  }
+}
