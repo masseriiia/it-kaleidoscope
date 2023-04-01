@@ -1,0 +1,44 @@
+.professions {
+  padding-bottom: 40px;
+  &__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #544837;
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  &__descr {
+    margin-bottom: 40px;
+  }
+}
+.card {
+  display: block;
+  padding-bottom: 80px;
+  max-width: 377px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+
+  &__title {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 34px;
+    color: #2F281E;
+  }
+
+  &__image img {
+    margin-bottom: 24px;
+    border-radius: 5px 5px 0px 0px;
+    max-height: 200px;
+    width: 100%;
+  }
+
+}
