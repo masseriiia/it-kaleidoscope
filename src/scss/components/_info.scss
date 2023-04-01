@@ -1,0 +1,64 @@
+.info {
+  padding-top: 105px;
+  padding-bottom: 125px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__professions {
+    max-width: 600px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 54px;
+    color: #2F281E;
+  }
+
+  &__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+    color: #2F281E;
+  }
+
+  &__knowledge {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #544837;
+  }
+}
+
+
+.comparisons {
+  padding: 34px 33px;
+  max-height: 500px;
+  max-width: 500px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+  &__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #544837;
+    text-align: center;
+  }
+
+  &__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #544837;
+  }
+}
