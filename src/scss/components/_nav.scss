@@ -9,5 +9,9 @@
     font-size: 15px;
     line-height: 28px;
     color: #2F281E;
+    &:hover {
+      color: orange;
+      transition: color 0.3s ease-in-out;
+    }
   }
 }

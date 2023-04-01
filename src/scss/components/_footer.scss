@@ -12,6 +12,11 @@
     font-size: 16px;
     line-height: 35px;
     color: #544837;
+
+    &:hover {
+      color: orange;
+      transition: color 0.3s ease-in-out;
+    }
   }
 }
 
