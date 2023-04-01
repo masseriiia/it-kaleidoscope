@@ -1,0 +1,44 @@
+.about {
+  padding-top: 40px;
+  padding-bottom: 70px;
+
+
+  &__descr {
+    margin-bottom: 58px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+  }
+}
+
+.about-card {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  box-shadow: 4px 4px 7px -5px rgba(34, 60, 80, 0.2);
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+  }
+
+  &__decr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #544837;
+  }
+
+  &__image img{
+    border-radius: 50%;
+  }
+}
